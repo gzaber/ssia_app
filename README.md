@@ -1,7 +1,5 @@
 # ssia_app - Security Systems Installer Assistant
 
----
-
 Mobile application for security system installers.
 Supports work with addressable devices.
 Allows you to create a visual tree of security systems.  
@@ -11,8 +9,6 @@ Application launched and tested on Android.
 This is my first mobile app in Flutter, written to support my daily work.
 
 ## Features
-
----
 
 - Create project (the name of the office building)
 - Create project node (the name of the security system)
@@ -24,8 +20,6 @@ This is my first mobile app in Flutter, written to support my daily work.
 - Share system structure as image
 
 ## Screenshots
-
----
 
 [<img alt="Home screen" width="100px" src="_screenshots/ssia_home.png" />](_screenshots/ssia_home.png)
 [<img alt="Home screen" width="100px" src="_screenshots/ssia_add.png" />](_screenshots/ssia_add.png)
@@ -46,30 +40,20 @@ This is my first mobile app in Flutter, written to support my daily work.
 
 ## Technologies
 
----
-
 - Dart
 - Flutter
 
 ## Setup
 
----
-
 Clone this repo to your desktop and run `flutter pub get` to install all the packages.
 
 ## Launch
-
----
 
 Run app using `flutter run` at the command line, or by using Run and Debug options in your IDE.  
 You can also build app and install on your phone using Flutter documentation:  
 https://docs.flutter.dev/deployment/android#building-the-app-for-release
 
-
-
 ## Inspiration
-
----
 
 This app was based on Island Coder876 tutorial:  
 *How to implement Domain Driven Design in Flutter Applications*  
