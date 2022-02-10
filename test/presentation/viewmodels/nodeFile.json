@@ -1,0 +1,18 @@
+[
+    {
+        "id": "xx",
+        "parentId": "none",
+        "name": "F2F",
+        "description": "description",
+        "position": 0,
+        "iconName": "icon"
+    },
+    {
+        "id": "yy",
+        "parentId": "none",
+        "name": "AFI",
+        "description": "description",
+        "position": 0,
+        "iconName": "icon"
+    }
+]
