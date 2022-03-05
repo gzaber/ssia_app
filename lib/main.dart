@@ -12,10 +12,12 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp();
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ControllersTree',
+      title: 'SSIA',
       debugShowCheckedModeBanner: false,
       home: UiComposer.composeHomePage(),
     );

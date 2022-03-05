@@ -3,7 +3,6 @@
     ".dart_tool": true,
     ".idea": true,
     "build": true,
-    "ios": true,
     ".flutter-plugins": true,
     ".flutter-plugins-dependencies": true,
     ".gitignore": false,

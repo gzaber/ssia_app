@@ -1,31 +1,28 @@
 # ssia_app - Security Systems Installer Assistant
 
----
-
-Mobile application for security system installers.
-Supports work with addressable devices.
-Allows you to create a visual tree of security systems.  
-
-Application launched and tested on Android.
-
-This is my first mobile app in Flutter, written to support my daily work.
+A mobile application designed for security system installers.  
+It supports working with addressable electronic devices.
+The application allows to create the structure of security systems in a graphic form.
+It is useful during the start-up of security systems and during systems development.
 
 ## Features
 
----
-
-- Create project (the name of the office building)
-- Create project node (the name of the security system)
-- Create node at any level (element of the security system)
-- Edit / delete project or node
-- Reorder project or node in list
-- Import / export project to JSON file
-- Graphical preview of the system structure
-- Share system structure as image
+- Manage projects
+  - Create project (e.g. building name)
+  - Update project name / icon
+  - Delete project
+- Manage nodes
+  - Create node (e.g. security system name, element of the security system)
+  - Update node name / icon
+  - Delete node
+- Change the order of the items on the displayed list
+- Slide a list item to view the menu
+- Export project to file
+- Import project from file
+- Create a tree preview of the items
+- Share the tree preview as an image
 
 ## Screenshots
-
----
 
 [<img alt="Home screen" width="100px" src="_screenshots/ssia_home.png" />](_screenshots/ssia_home.png)
 [<img alt="Home screen" width="100px" src="_screenshots/ssia_add.png" />](_screenshots/ssia_add.png)
@@ -46,39 +43,49 @@ This is my first mobile app in Flutter, written to support my daily work.
 
 ## Technologies
 
----
-
 - Dart
 - Flutter
+- SQLite
 
 ## Setup
 
----
+Clone or download this repository.  
+Use the following command to install all the dependencies:
 
-Clone this repo to your desktop and run `flutter pub get` to install all the packages.
+```
+flutter pub get
+```
+
+Use the following command to update all the dependencies to the latest compatible versions:
+
+```
+flutter pub upgrade
+```
+
+Use the following command to create platform-specific folders:
+
+```
+flutter create .
+```
 
 ## Launch
 
----
+Run the application using your IDE or using the following command:
 
-Run app using `flutter run` at the command line, or by using Run and Debug options in your IDE.  
-You can also build app and install on your phone using Flutter documentation:  
-https://docs.flutter.dev/deployment/android#building-the-app-for-release
+```
+flutter run
+```
 
+## Test
 
+Run the tests using your IDE or using the following command:
+
+```
+flutter test
+```
 
 ## Inspiration
 
----
-
-This app was based on Island Coder876 tutorial:  
-*How to implement Domain Driven Design in Flutter Applications*  
+This application was based on Island Coder876 tutorial:  
+_How to implement Domain Driven Design in Flutter Applications_  
 https://www.youtube.com/playlist?list=PLFhJomvoCKC_YMx_ObwZG3bfImpu2VdEN
-
-
-
-
-
-
-
-
