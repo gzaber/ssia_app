@@ -5,6 +5,16 @@ It supports working with addressable electronic devices.
 The application allows to create the structure of security systems in a graphic form.
 It is useful during the start-up of security systems and during systems development.
 
+## Table of contents
+
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Launch](#launch)
+- [Test](#test)
+- [Insipiration](#inspiration)
+
 ## Features
 
 - Manage projects
@@ -56,7 +66,7 @@ Use the following command to install all the dependencies:
 flutter pub get
 ```
 
-Use the following command to update all the dependencies to the latest compatible versions:
+Use the following command to update to the latest compatible versions of all the dependencies :
 
 ```
 flutter pub upgrade
